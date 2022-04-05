@@ -1,7 +1,7 @@
 import useMediaReducer from 'app/reducers/useMedisReducer';
 import React from 'react';
-import SearchForm from './searchForm';
-import SearchList from './searchList';
+import SearchForm from 'components/searchForm';
+import SearchList from 'components/searchList';
 
 export default function Posts() {
     const [state, { search }] = useMediaReducer();
